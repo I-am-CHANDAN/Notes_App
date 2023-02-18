@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(58, 197, 151);
+}
+
+#addBtn {
+    margin: 15px 12px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(207, 70, 20);
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.note {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 6px 25px;
+    margin-bottom: 80px;
+    box-shadow: 0 16px 28px rgb(0 0 0 / 44%), 0 13px 15px rgba(0, 0, 0, 0.499);
+}
+
+.tool {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: end;
+    border-radius: 4px;
+    background-color: rgb(31, 81, 103);
+}
+
+.tool i {
+    cursor: pointer;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.note textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+}
